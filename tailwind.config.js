@@ -1,8 +1,45 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brown: '#996633',
+        lightBrown: '#f8f2ec',
+        darkBrown: '#392714',
+      },
+    },
   },
-  variants: {},
+  variants: {
+    backgroundColor: [
+      'responsive',
+      'group-hover',
+      'group-focus',
+      'focus-within',
+      'first',
+      'last',
+      'odd',
+      'even',
+      'hover',
+      'focus',
+      'active',
+      'visited',
+      'disabled',
+    ],
+    textColor: [
+      'responsive',
+      'group-hover',
+      'group-focus',
+      'focus-within',
+      'first',
+      'last',
+      'odd',
+      'even',
+      'hover',
+      'focus',
+      'active',
+      'visited',
+      'disabled',
+    ],
+  },
   plugins: [],
-}
+};

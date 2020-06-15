@@ -1,6 +1,6 @@
-const HomeSVG = ({className}) => (
+const HomeSVG = ({ className }) => (
   <svg
-    className={className}
+    className={`${className} fill-current font-bold`}
     id="Layer_1"
     enableBackground="new 0 0 512 512"
     height="512"
